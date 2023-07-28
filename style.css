@@ -7,14 +7,91 @@
 header{
     background-color: #f60505;
     height: 80px ;
+    position: relative;
 }
 
 .logo-span {
     background-color: #fff;
     border-radius: 50px;
     padding: 10px 15px;
+    position: absolute;
+    left: 80px;
+    top: 13px;
 }
 
 .logo {
     color: #f60505;
+    font-style: 33px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.login-signup{
+    position: absolute;
+    right: 80px;
+    top: 25px;
+    word-spacing: 10px;
+}
+
+.login {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.createacc{
+    color: #fff;
+    word-spacing: normal;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.section{
+    position: relative;
+    padding: 20px 50px;
+    
+}
+
+.title-text{
+    color: blue;
+    font-weight: 600;
+    font-style: 36px;
+    margin-bottom: 20px;
+}
+
+.filters-article{
+    width: 260px;
+    height: 682px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+    background-color: #fff;
+}
+
+.result1-article{
+    width: 794px;
+    height: 291px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    background-color: #fff;
+    position: absolute;
+    top: 125px;
+    left: 350px;
+
+}
+
+.result2-article{
+    width: 794px;
+    height: 291px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    background-color: #fff;
+    position: absolute;
+    top: 430px;
+    left: 350px;
+
+}
+
+.pagination{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
 }
